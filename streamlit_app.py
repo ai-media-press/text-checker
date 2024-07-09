@@ -19,5 +19,5 @@ def shannon(string):
 
 if calculate:
     st.text(f"Shannon entropy: {shannon(text):.2f}")
-    st.text(f"Gunning fox index: {textstat.gunning_fog(text)}")
+    st.text(f"Gunning fog index: {textstat.gunning_fog(text)}")
     st.text(f"No of tokens: {len(encoding.encode(text))}")
